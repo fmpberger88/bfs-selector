@@ -2,7 +2,7 @@
 headless = true
 enableCORS=false
 port = $PORT
-baseUrlPath = "app.py"
+baseUrlPath = ".strealit.app"
 [proxy]
 enabled = true
 forwardedForHeader = "X-Forwarded-For"
