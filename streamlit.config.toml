@@ -1,0 +1,9 @@
+[server]
+headless = true
+enableCORS=false
+port = $PORT
+baseUrlPath = "app.py"
+[proxy]
+enabled = true
+enableForwarding = true
+forwardedHeaders = ["X-Forwarded-For"]
