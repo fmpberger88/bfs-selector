@@ -5,5 +5,5 @@ port = $PORT
 baseUrlPath = "app.py"
 [proxy]
 enabled = true
-enableForwarding = true
-forwardedHeaders = ["X-Forwarded-For"]
+forwardedForHeader = "X-Forwarded-For"
+httpProxy = "http://proxy.kt.ktzh.ch:8080"
